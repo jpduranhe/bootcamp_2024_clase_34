@@ -12,7 +12,7 @@ import java.util.Scanner;
 
 public class EjemploBuenasPracticas {
 
-	public static void main(String[] args) {
+	public static void maineee(String[] args) {
 		/*
 		 * 
 		 * 

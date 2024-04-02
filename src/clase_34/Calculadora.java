@@ -1,9 +1,19 @@
 package clase_34;
 
 import java.util.Scanner;
-
+/**
+ * Clase que permite al usuario realizar operaciones matematicas
+ * 
+ * 
+ */
 
 public class Calculadora {
+	
+	/**
+	 *  Metodo de que permite ejecutar las clase
+	 * @param args argumentos que seran recibidos al momentos de ejecutarse
+	 */
+	
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		int num1 =0; 
@@ -62,6 +72,15 @@ public class Calculadora {
 		
 		System.out.println("Calculadora finalizada");
 	}
+	
+	
+	
+	/**
+	 * Metodo que permite sumar 2 numeros enteros
+	 * @param a debe ser un numero entero
+	 * @param b debe ser un numero entero
+	 * @return entrega el resultado de la suma de  a + b
+	 */
 	public static int sumar(int a, int b)
 	{ 
 		return a + b;
